@@ -43,9 +43,9 @@ left, middle, right = st.columns(3)
 if left.button("適正職業診断",icon= "👰" ,width="stretch"):
     st.switch_page("pages/app1.py")
 if middle.button("ハッピー占い", icon="😃", width="stretch",type="secondary"):
-    st.switch_page("pages/page2.py")
+    st.switch_page("pages/app2.py")
 if right.button("作成中", icon=":material/mood:", width="stretch"):
-    right.markdown("You clicked the Material button.")
+    right.markdown("近日公開")
 
 
 #複数ページ実装
